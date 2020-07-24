@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { App } from './App';
-import * as serviceWorker from './serviceWorker';
+/*
+ * @Author: Giphitie
+ * @Date: 2020-07-24 22:20:25
+ * @Last Modified by:   Giphitie
+ * @Last Modified time: 2020-07-24 22:20:25
+ */
+
+import React from "react";
+import ReactDOM from "react-dom";
+import { App } from "./App";
+import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
 	<React.StrictMode>
 		<App />
 	</React.StrictMode>,
-	document.getElementById('root'),
+	document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

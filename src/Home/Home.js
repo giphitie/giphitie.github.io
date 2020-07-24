@@ -1,24 +1,24 @@
 /*
- * @Author: Dieu-Donne Nazzah
- * @Date: 2020-06-07 04:02:32
- * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2020-07-18 04:20:09
+ * @Author: Giphitie
+ * @Date: 2020-07-24 22:19:22
+ * @Last Modified by:   Giphitie
+ * @Last Modified time: 2020-07-24 22:19:22
  */
 
-import React, { useState } from 'react';
-import { useSelector } from 'react-redux';
-import { isLoaded, useFirestoreConnect } from 'react-redux-firebase';
-import { Header, Loader } from '../_shared/components';
-import { About, Contact, Footer, GetInTouch, Hero, Projects, Resume, Services, Skills } from './components';
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
+import { isLoaded, useFirestoreConnect } from "react-redux-firebase";
+import { Header, Loader } from "../_shared/components";
+import { About, Contact, Footer, GetInTouch, Hero, Projects, Resume, Services, Skills } from "./components";
 
 const Home = () => {
 	const [loading] = useState(true);
 	// useFirestoreConnect([{ collection: 'reume', orderBy: ['created_at', 'desc'], limit: 3 }]);
 	useFirestoreConnect([
-		{ collection: 'resume', orderBy: ['order', 'desc'] },
-		{ collection: 'skills' },
-		{ collection: 'projects', orderBy: ['order', 'desc'] },
-		{ collection: 'other_projects' },
+		{ collection: "resume", orderBy: ["order", "desc"] },
+		{ collection: "skills" },
+		{ collection: "projects", orderBy: ["order", "desc"] },
+		{ collection: "other_projects" },
 	]);
 
 	const resume = useSelector((state) => state.firestore.ordered.resume);

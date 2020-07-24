@@ -1,44 +1,45 @@
 /*
- * @Author: Dieu-Donne Nazzah
- * @Date: 2020-06-08 18:33:51
- * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2020-07-18 04:32:15
+ * @Author: Giphitie
+ * @Date: 2020-07-24 22:18:37
+ * @Last Modified by:   Giphitie
+ * @Last Modified time: 2020-07-24 22:18:37
  */
-import React from 'react';
+
+import React from "react";
 
 const Projects = ({ data, otherData }) => {
 	// const gridSizes = [4, 8, 8, 4];
 
 	return (
 		<React.Fragment>
-			<section className='giphitie-section giphitie-project' id='projects-section'>
-				<div className='container'>
-					<div className='row justify-content-center pb-5'>
-						<div className='col-md-12 heading-section text-center' data-aos='fade-up'>
-							<h1 className='big big-2'>Projects</h1>
-							<h2 className='mb-4'>Projects</h2>
+			<section className="giphitie-section giphitie-project" id="projects-section">
+				<div className="container">
+					<div className="row justify-content-center pb-5">
+						<div className="col-md-12 heading-section text-center" data-aos="fade-up">
+							<h1 className="big big-2">Projects</h1>
+							<h2 className="mb-4">Projects</h2>
 							<p>Somewhere in Kumasi, in the great nation of Ghana</p>
 						</div>
 					</div>
-					<div className='row d-flex justify-content-center'>
+					<div className="row d-flex justify-content-center">
 						{data.map((project, index) => (
-							<div className='col-md-4 text-center d-flex' data-aos='fade-up' key={project.id}>
-								<div href='#' className='services-1'>
-									<span className='icon float-left'>
-										<i className='icon-folder-open-o'></i>
+							<div className="col-md-4 text-center d-flex" data-aos="fade-up" key={project.id}>
+								<div href="#" className="services-1">
+									<span className="icon float-left">
+										<i className="icon-folder-open-o"></i>
 									</span>
-									<div className='desc'>
-										<h3 className='mb-5'>{project.name}</h3>
-										<p className='text-left'>{project.description}</p>
+									<div className="desc">
+										<h3 className="mb-5">{project.name}</h3>
+										<p className="text-left">{project.description}</p>
 										{project.link ? (
-											<a href={project.link} target='_blank' rel='noopener noreferrer'>
-												<span className='icon float-right'>
-													<i className='icon-open_in_new' style={{ fontSize: '1rem' }}></i>
+											<a href={project.link} target="_blank" rel="noopener noreferrer">
+												<span className="icon float-right">
+													<i className="icon-open_in_new" style={{ fontSize: "1rem" }}></i>
 												</span>
 											</a>
 										) : (
-											<span className='icon float-right text-lowercase'>
-												<i style={{ fontSize: '1rem' }}>private</i>
+											<span className="icon float-right text-lowercase">
+												<i style={{ fontSize: "1rem" }}>private</i>
 											</span>
 										)}
 									</div>
