@@ -1,8 +1,13 @@
 /*
  * @Author: Dieu-Donne Nazzah
  * @Date: 2020-06-08 18:22:31
+<<<<<<< HEAD
  * @Last Modified by: Giphitie
  * @Last Modified time: 2020-07-24 22:50:53
+=======
+ * @Last Modified by: Giphitie
+ * @Last Modified time: 2020-07-24 22:54:11
+>>>>>>> 4728e800cbee178ee3c93566f25a6a42c4105eca
  */
 
 import React from "react";
@@ -96,12 +101,12 @@ const About = () => {
 									</p> */}
 								<p>
 									<a
-										href="https://drive.google.com/file/d/1Kx-TzFnhIcLDUYNkzKl20SlHOsC4JShG/view?usp=sharing"
+										href="https://drive.google.com/file/d/13OweyogKkDn5c0m9mCFaB-j-G8N1kIX3/view?usp=sharing"
 										className="btn btn-primary btn-outline-primary py-3 px-3"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Download CV
+										Resume
 									</a>
 								</p>
 							</div>
