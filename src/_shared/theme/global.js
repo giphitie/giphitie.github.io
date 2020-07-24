@@ -1,11 +1,11 @@
 /*
- * @Author: Dieu-Donne Nazzah
- * @Date: 2020-06-19 03:14:40
- * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2020-06-19 03:47:21
+ * @Author: Giphitie
+ * @Date: 2020-07-24 22:16:11
+ * @Last Modified by:   Giphitie
+ * @Last Modified time: 2020-07-24 22:16:11
  */
 
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 *,

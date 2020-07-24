@@ -1,13 +1,13 @@
 /*
- * @Author: Dieu-Donne Nazzah
- * @Date: 2019-10-21 01:17:39
- * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2020-06-08 17:24:14
+ * @Author: Giphitie
+ * @Date: 2020-07-24 22:19:39
+ * @Last Modified by:   Giphitie
+ * @Last Modified time: 2020-07-24 22:19:39
  */
 
-import { firebaseReducer } from 'react-redux-firebase';
-import { combineReducers } from 'redux';
-import { firestoreReducer } from 'redux-firestore';
+import { firebaseReducer } from "react-redux-firebase";
+import { combineReducers } from "redux";
+import { firestoreReducer } from "redux-firestore";
 // import { persistReducer } from "redux-persist";
 
 const allReducers = combineReducers({
