@@ -107,12 +107,12 @@ const About = () => {
 									</p> */}
 								<p>
 									<a
-										href='https://drive.google.com/file/d/1Kx-TzFnhIcLDUYNkzKl20SlHOsC4JShG/view?usp=sharing'
+										href='https://drive.google.com/file/d/13OweyogKkDn5c0m9mCFaB-j-G8N1kIX3/view?usp=sharing'
 										className='btn btn-primary btn-outline-primary py-3 px-3'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										Download CV
+										Resume
 									</a>
 								</p>
 							</div>

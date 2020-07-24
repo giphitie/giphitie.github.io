@@ -2,7 +2,7 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2020-06-08 18:24:26
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2020-07-18 05:32:31
+ * @Last Modified time: 2020-07-24 22:29:18
  */
 
 import React from 'react';
@@ -44,12 +44,12 @@ const Resume = ({ data }) => {
 					<div className='col-md-6 text-center' data-aos='fade-up'>
 						<p>
 							<a
-								href='https://drive.google.com/file/d/1Kx-TzFnhIcLDUYNkzKl20SlHOsC4JShG/view?usp=sharing'
+								href='https://drive.google.com/file/d/13OweyogKkDn5c0m9mCFaB-j-G8N1kIX3/view?usp=sharing'
 								className='btn btn-primary btn-outline-primary py-4 px-5'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								Download CV
+								Resume
 							</a>
 						</p>
 					</div>
