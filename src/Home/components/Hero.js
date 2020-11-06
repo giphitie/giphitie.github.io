@@ -2,16 +2,13 @@
  * @Author: Giphitie
  * @Date: 2020-07-24 22:17:53
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2020-11-06 22:53:22
+ * @Last Modified time: 2020-11-06 23:06:35
  */
 
 import React, { useEffect } from "react";
 import Typed from "typed.js";
-import { useWindowSize } from "../../_shared/hooks";
 
 const Hero = () => {
-    const [, height] = useWindowSize();
-
     useEffect(() => {
         new Typed("#typedIntro", introOptions);
         new Typed("#typedIntroDesc", introDescOptions);
