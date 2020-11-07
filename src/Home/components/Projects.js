@@ -2,7 +2,7 @@
  * @Author: Giphitie
  * @Date: 2020-07-24 22:18:37
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2020-11-06 22:22:38
+ * @Last Modified time: 2020-11-07 05:13:00
  */
 
 import React from "react";
@@ -50,6 +50,7 @@ const Projects = ({ data, otherData }) => {
                                         <p className="text-left">
                                             {project.description}
                                         </p>
+                                        <span>{project.tech}</span>
                                         {project.link ? (
                                             <a
                                                 href={project.link}
@@ -65,13 +66,7 @@ const Projects = ({ data, otherData }) => {
                                                     ></i>
                                                 </span>
                                             </a>
-                                        ) : (
-                                            <span className="icon float-right text-lowercase">
-                                                <i style={{ fontSize: "1rem" }}>
-                                                    private
-                                                </i>
-                                            </span>
-                                        )}
+                                        ) : null}
                                     </div>
                                 </div>
                             </div>
