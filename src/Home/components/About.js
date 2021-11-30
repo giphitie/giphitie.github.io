@@ -77,12 +77,13 @@ const About = () => {
                                     and for the past 3 years, I have been a team
                                     player and team leader providing solutions
                                     with the theory and methods learnt during
-                                    internships and volunteering.
+                                    internships and volunteering. I am currently a graduate
+                                     student in an MSc. Statistics program.
                                 </p>
                                 <p>
                                     I consider myself a forever student eager to
                                     build on her academic foundations in
-                                    actuarial science and{" "}
+                                    Statistics and{" "}
                                     <a
                                         href="https://en.wikipedia.org/wiki/Statistical_finance"
                                         target="_blank"
@@ -102,7 +103,7 @@ const About = () => {
                                     {/* <!-- <li className="d-flex"><span>Date of birth:</span> <span>January 01, 1987</span></li> --> */}
                                     <li className="d-flex">
                                         <span>Address:</span>{" "}
-                                        <span>KNUST, Kumasi Ghana</span>
+                                        <span>Bozeman, MT-USA</span>
                                     </li>
                                     {/* <!-- <li className="d-flex"><span>Zip code:</span> <span>1000</span></li> --> */}
                                     <li className="d-flex">
@@ -111,7 +112,7 @@ const About = () => {
                                     </li>
                                     <li className="d-flex">
                                         <span>Phone: </span>{" "}
-                                        <span>+233-55-475-1701</span>
+                                        <span>+1 (406) 994-7461</span>
                                     </li>
                                 </ul>
                             </div>
