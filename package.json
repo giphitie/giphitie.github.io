@@ -1,5 +1,6 @@
 {
     "name": "giftyosei",
+    "homepage": "https://giphitie.github.io/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -11,6 +12,7 @@
         "bootstrap": "^4.5.0",
         "clsx": "^1.1.1",
         "firebase": "^7.15.0",
+        "gh-pages": "^3.2.3",
         "jquery": "^3.5.1",
         "lodash": "^4.17.15",
         "nodemailer": "^6.4.8",
@@ -38,10 +40,12 @@
         "eject": "react-scripts eject",
         "deploy-functions": "yarn run package-functions && firebase deploy --only functions",
         "deploy-all": "yarn run package-functions && yarn build && firebase deploy",
-        "deploy": "yarn build && firebase deploy",
+        "deploy-firebase": "yarn build && firebase deploy",
         "prepackage-functions": "rimraf functions",
         "package-functions": "babel functionsES6 --out-dir functions --presets=es2015 --copy-files --ignore node_modules",
-        "postpackage-functions": "cd functions && yarn"
+        "postpackage-functions": "cd functions && yarn",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
